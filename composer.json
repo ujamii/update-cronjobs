@@ -1,0 +1,12 @@
+{
+    "name": "ujamii/update-cronjobs",
+    "description": "Bash script to update the cronjobs of the current project (and only those)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Enold",
+            "email": "ee@ujamii.com"
+        }
+    ]
+}
