@@ -21,10 +21,10 @@ PROJECT_ROOT=$(cd $(dirname $0)/..; pwd -P)
 CRONJOBS_NAME='My great project'
 
 ${PROJECT_ROOT}/vendor/ujamii/update-cronjobs/update-cronjobs.sh "${CRONJOBS_NAME}" $1 <<-EOF
-	@daily      bin/console daily-cronjob-example
+	@daily      ${PROJECT_ROOT}/bin/console daily-cronjob-example
 
 	# Send mails every 5 minutes
-	*/5 * * * * bin/console sendmails
+	*/5 * * * * ${PROJECT_ROOT}/bin/console sendmails
 
 	# ... Your other cronjobs ...
 EOF
