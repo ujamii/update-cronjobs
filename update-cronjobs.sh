@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ######################################################################################################################
 # With this script you can add, update and remove multiple cronjobs at once, while only updating the cronjobs in the #
