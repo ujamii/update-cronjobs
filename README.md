@@ -15,6 +15,8 @@ composer require ujamii/update-cronjobs
 **Add a scripts/setupCronjobs.sh to your project:**
 
 ```shell
+#!/usr/bin/env bash
+
 PROJECT_ROOT=$(cd $(dirname $0)/..; pwd -P)
 CRONJOBS_NAME='My great project'
 
